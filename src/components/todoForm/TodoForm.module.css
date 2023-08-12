@@ -1,0 +1,54 @@
+
+.container{
+    height: 6rem;
+    width: 70%;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+.upper{
+    display: flex;
+   height: 3rem;
+   align-items: center;
+   justify-content: space-between;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inp{
+    width: 76%;
+    height: 2rem;
+    outline: none;
+}
+.btn{
+    width: 20%;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #1FAA59;
+    cursor: pointer;
+}
+.clearbtn{
+    height: 1.5rem;
+    width: 8rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #DE4839;
+    cursor: pointer;
+    color: white;
+}
+.col{
+    color: #DE4839;
+}
+@media (max-width: 1000px) {
+    .upper{
+      display: flex;
+      flex-direction: column;
+    height: 5rem;
+    }
+    .container{
+        height: 8rem;
+    }
+  }
